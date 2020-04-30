@@ -24,3 +24,7 @@ setInterval(() => (
 ), 1000);
 
 setMarkup(getMarkup(getToday(), getTheTime()))
+
+if (__DEV__) {
+    console.log('we logging');
+}
