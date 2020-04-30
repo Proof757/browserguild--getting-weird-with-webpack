@@ -26,4 +26,5 @@ module.exports = {
             template: './src/templates/index.html'
         })
     ],
+    mode: 'development',
 };
